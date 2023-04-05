@@ -1,0 +1,155 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.header-logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-menu a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.header-menu a:hover {
+    color: #007bff;
+}
+
+.header-search form {
+    display: flex;
+    align-items: center;
+}
+
+.header-search input[type="text"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.header-search button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.header-search button:hover {
+    background-color: #0069d9;
+}
+
+/* First section styles */
+.first-section {
+    padding: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.first-section-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.first-section-content p {
+    margin-bottom: 30px;
+}
+
+.first-section-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.first-section-content button:hover {
+    background-color: #0069d9;
+}
+
+/* Services section styles */
+.services-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.services-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.services-box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.services-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.services-box p {
+    margin-bottom: 20px;
+}
+
+/* News section styles */
+.news-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
